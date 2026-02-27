@@ -3,12 +3,6 @@ import type { NextConfig } from 'next';
 const nextConfig = {
   images: {
     unoptimized: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  images: {
-    unoptimized: true, // <--- This is required for 'export' mode
     remotePatterns: [
       {
         protocol: 'https',
@@ -30,6 +24,9 @@ const nextConfig = {
       },
     ],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },   
 };
 
 export default nextConfig;
