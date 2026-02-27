@@ -1,0 +1,35 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-horse",
+      "description": "A majestic horse in a California ranch at sunset",
+      "imageUrl": "https://picsum.photos/seed/horse1/1200/800",
+      "imageHint": "horse ranch sunset"
+    },
+    {
+      "id": "rescue-horse-1",
+      "description": "A rehabilitated horse running in the field",
+      "imageUrl": "https://picsum.photos/seed/horse2/600/400",
+      "imageHint": "horse field"
+    },
+    {
+      "id": "rescue-horse-2",
+      "description": "A donkey looking curious in the stable",
+      "imageUrl": "https://picsum.photos/seed/donkey1/600/400",
+      "imageHint": "donkey farm"
+    },
+    {
+      "id": "barn-interior",
+      "description": "Inside a rustic wooden barn",
+      "imageUrl": "https://picsum.photos/seed/barn/800/600",
+      "imageHint": "rustic barn"
+    },
+    {
+      "id": "community-impact",
+      "description": "A person interacting with a horse in a therapeutic setting",
+      "imageUrl": "https://picsum.photos/seed/horse3/800/600",
+      "imageHint": "horse therapy"
+    }
+  ]
+}
