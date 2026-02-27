@@ -1,10 +1,8 @@
 import type { NextConfig } from 'next';
 
-const nextConfig: NextConfig = {
-  /* config options here */
-  output: 'export', // <--- This is required for Cloudflare Static Hosting
-  typescript: {
-    ignoreBuildErrors: true,
+const nextConfig = {
+  images: {
+    unoptimized: true,
   },
   eslint: {
     ignoreDuringBuilds: true,
